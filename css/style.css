@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: opx;
+    box-sizing: border-box;
+}
+
+
+#hero-section .team-player{
+    color: #919191;
+}
+
+#top-hero-section{
+    background: linear-gradient(45deg, rgba(255, 255, 255 0.8)), url(../img/hero-image.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* #top-hero-section:before{
+    content: "";
+    background: rgba(255, 255, 255 0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+
+.text-primary{
+    color: #124265 !important;
+}
+
+#about-section .text-center p{
+    color: #919191;
+}
+
+.btn-primary {
+    background: #2487ce !important;
+}
+
+#count-section {
+    background: #f8fbfe;
+}
+
+#count-section h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+#client-section{
+    background-color: #f8fbfe;
+}
+
+
+#client-section img {
+max-width: 50%;
+filter: grayscale(100);
+transition: all 0.4s ease-in-out;
+}
+
+#client-section img:hover{
+    max-width: 90%;
+    filter: grayscale(0);
+    transform: scale(1.5);
+}
+
+#testimonial-section .slider-section .testimonial-box p{
+    background-color: #f3f9fd;
+}
+
+#testimonial-section .slider-section .testimonial-box .testifier img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#testimonial-section .slider-section .testimonial-box .testifier .testifier-box p{
+    color: #919191;
+    background-color: white;
+}
+
+
+/* service-section */
+
+#service-section{
+    background: #f8fbfe;
+}
+
+#service-section .text-center p{
+    color: #919191;
+}
+
+.icon-section{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.icon-section svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.icon-section i{
+    z-index: 10;
+    color: #2487ce;
+}
+
+.service-card{
+    transition: all 0.4s ease-in-out;
+    padding: 70px 0px 80px 0px;
+}
+
+.service-card:hover{
+    box-shadow: 0px 0 35px 0 rgb(0, 0, 0 / 8%);
+}
+
+.service-card svg path{
+    transition: 0.5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+.service-card:hover .blue-icon path{
+    fill: #47aeff;
+}
+
+.service-card i:hover{
+    color: #fff;
+}
+
+
+/* Action section */
+
+#action-section{
+    background: #2487ce !important;
+}
+
+#action-section a:hover{
+    color: #2487ce;
+}
+
+
+/* Portfolio-section */
+#portfolio-section .portfolio-tabs ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+#portfolio-section .portfolio-tabs ul li:hover{
+    color: #2487ce;
+}
+
+    /* .portfolio-info{
+        display: none !important;
+    } */
+
+    .portfolio-cards::before{
+        content: "";
+        background: rgba(36, 135, 206, 0.6);
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        bottom: 30px;
+        z-index: 2;
+    }
+
+    .portfolio-info::before{
+        content: "";
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 35px;
+        left: 35px; 
+        z-index: 50;
+        border-left: 3px solid #fff;
+        border-top: 3px solid #fff;
+    }
+
+    .portfolio-info::after{
+        content: "";
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        bottom: 35px;
+        right: 35px;
+        z-index: 50;
+        border-right: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+    }
+
+
+    .portfolio-cards{
+        position: relative;
+    }
+
+    /* .portfolio-cards:hover .portfolio-info::before{
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 1;
+    } */
+
+    .portfolio-info {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 3;
+        flex-direction: column;
+        transition: all ease-in-out 0.3s;
+    }
+
+    /* Team section */
+#team-section{
+    background-color: #f8fbfe;
+}
+
+#team-section .team-member .team-profile{
+    width: 260px;
+    min-height: 100px;
+    background-color: #fff;
+    margin-right: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+#team-section .team-member h2, h4{
+    color: #124265;
+}
+
+#team-section .team-member p, span{
+    color: #aaaaaa;
+}
